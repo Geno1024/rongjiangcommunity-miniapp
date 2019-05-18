@@ -2,6 +2,7 @@
 
 const app = getApp();
 const data = {
+  canIUseButtonOpenType: wx.canIUse('button.open-type.getUserInfo'),
   userInfo: null,
   approved: false,
   status: '',
